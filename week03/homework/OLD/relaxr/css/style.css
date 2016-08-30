@@ -1,0 +1,117 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #00000;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+    margin: 0 auto;
+    background-color: #606161;  
+}
+
+
+#layout {
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #033048;
+  width: 940px;
+}
+
+h1 {
+  
+  display: inline-block;
+  float: left;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 24px;
+  color: #f9e42e;
+  display: inline-block;
+  float: right;
+  padding: 0px 10px;
+}
+
+main {
+    background-color: white;
+    width: 960px;
+  }
+
+section {
+  display: inline-block;
+  width: 700px;
+}
+
+aside {
+  display: inline-block;
+  width: 240px;
+}
+
+footer {
+  clear: both;
+  width: 960px;
+}
+
+p{
+  font-weight: light; 
+  font-size: 22px;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
