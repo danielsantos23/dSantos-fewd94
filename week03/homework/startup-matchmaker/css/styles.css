@@ -1,0 +1,161 @@
+/*FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+/*OVERALL STYLES*/
+
+.container {
+	margin: auto;
+	width: 1250px;
+}
+
+#tagline {
+	font-family: "Merriweather", serif;
+	font-style: italic;
+	font-size: 18px;
+	background: #C6C6C6;
+	color: black;
+	text-align: center;
+	padding: 2px 0px;
+	width: 1250px;
+}
+
+section {
+	background-image: url('../img/coworking.jpg');
+	height: 400px;
+    background-repeat: no-repeat;
+    background-position: -100px;
+    background-size: 110%;
+}
+
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clear {
+	clear: both;
+}
+
+#floatRight {
+	display: inline-block;
+	float: right;
+	margin: 40px 40px 0px 0px;
+	padding: 40px;
+	width: 360px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#underline {
+	text-decoration: underline;
+}
+
+#strikeThru {
+	text-decoration-line: 1px;
+}
+/*HEADER STYLES*/
+header {
+	width: 1170px;
+	background-color: black;
+	border-bottom: 5px yellow solid;
+	margin: auto;
+	overflow: hidden;
+	padding: 5px 40px;
+}
+
+h1 {
+	font-family: "Merriweather", serif;
+	font-size: 24px;
+	color: yellow;
+	display: inline-block;
+	float: left;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;	
+	font-size: 18px;
+	color: black;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	padding-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.navFont {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	color: white;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+
+/*MAIN STYLES*/
+
+#main {
+	width: 1250px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.profile {
+	margin: 25px;
+	overflow: hidden;
+	display: inline-block;
+	width: 320px;
+	padding: 20px;
+	border-right: gray 1px solid;
+}
+
+#border {
+	border-right: none;
+}
+
+h3 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+	color: black;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+.buttonYellow {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	text-align: center;
+	width: 350px;
+	padding: 10px;
+	background-color: yellow;
+	border-radius: 5px;
+}
+
+.buttonGray {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	text-align: center;
+	width: 250px;
+	padding: 10px;
+	background-color: #999999;
+	border-radius: 5px;
+}
+
+/*FOOTER STYLES*/
+footer {
+	width: 1250px;
+	margin: auto;
+	background-color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: white;
+	padding: 25px;
+}
